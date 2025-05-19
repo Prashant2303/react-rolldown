@@ -1,0 +1,23 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "description": "Using bundlers manually",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx rolldown -c",
+    "dev": "node dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "rolldown": "^1.0.0-beta.8"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
