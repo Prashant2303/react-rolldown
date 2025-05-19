@@ -6,6 +6,6 @@ export default defineConfig({
         file: "dist/bundle.js"
     },
     moduleTypes: {
-        'js': 'jsx' // This is a workaround for the issue with JSX not being recognized in .js files
+        'js': 'jsx' // This tells rolldown to process JS files as JSX. Required as we have jsx syntax in main.js
     }
 })
